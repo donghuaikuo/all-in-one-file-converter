@@ -1,0 +1,6 @@
+# robots.txt for All-in-One File Converter
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://allinone-converter.com/sitemap.xml

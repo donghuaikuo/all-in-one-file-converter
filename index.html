@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All-in-One 小型文件格式转换器 - 免费在线文件转换工具</title>
+    <meta name="description" content="免费在线文件格式转换器，支持PDF转Word、图片格式转换、视频转换等。无需注册，完全免费，操作简单快捷。">
+    <meta name="keywords" content="文件转换,PDF转Word,JPG转PNG,在线转换,免费转换工具">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>All-in-One 转换器</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tools" class="nav-link">工具</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">关于</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主内容区域 -->
+    <main>
+        <!-- 英雄区域 -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">All-in-One 小型文件格式转换器</h1>
+                    <p class="hero-subtitle">免费、快速、无需注册的在线文件转换工具</p>
+                    <p class="hero-description">
+                        支持文档、图片、视频等多种格式转换，操作简单，30秒内完成转换
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">免费使用</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">无需</span>
+                            <span class="stat-label">注册登录</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">30秒</span>
+                            <span class="stat-label">快速转换</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 工具分类区域 -->
+        <section id="tools" class="tools-section">
+            <div class="container">
+                <h2 class="section-title">选择转换工具</h2>
+                <p class="section-subtitle">点击下方工具开始转换</p>
+                
+                <div class="tools-grid">
+                    <!-- 文档转换工具 -->
+                    <div class="tool-category">
+                        <h3 class="category-title">📄 文档转换</h3>
+                        <div class="tools-list">
+                            <div class="tool-item" data-tool="pdf-to-word">
+                                <span class="tool-icon">📋</span>
+                                <span class="tool-name">PDF转Word</span>
+                                <span class="tool-desc">将PDF转换为可编辑的Word文档</span>
+                            </div>
+                            <div class="tool-item" data-tool="pdf-to-ppt">
+                                <span class="tool-icon">📊</span>
+                                <span class="tool-name">PDF转PPT</span>
+                                <span class="tool-desc">将PDF转换为PowerPoint演示文稿</span>
+                            </div>
+                            <div class="tool-item" data-tool="word-to-pdf">
+                                <span class="tool-icon">📝</span>
+                                <span class="tool-name">Word转PDF</span>
+                                <span class="tool-desc">将Word文档转换为PDF格式</span>
+                            </div>
+                            <div class="tool-item" data-tool="excel-to-pdf">
+                                <span class="tool-icon">📈</span>
+                                <span class="tool-name">Excel转PDF</span>
+                                <span class="tool-desc">将Excel表格转换为PDF格式</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 图片转换工具 -->
+                    <div class="tool-category">
+                        <h3 class="category-title">🖼️ 图片转换</h3>
+                        <div class="tools-list">
+                            <div class="tool-item" data-tool="jpg-to-png">
+                                <span class="tool-icon">🔄</span>
+                                <span class="tool-name">JPG转PNG</span>
+                                <span class="tool-desc">将JPG图片转换为PNG格式</span>
+                            </div>
+                            <div class="tool-item" data-tool="png-to-jpg">
+                                <span class="tool-icon">🔄</span>
+                                <span class="tool-name">PNG转JPG</span>
+                                <span class="tool-desc">将PNG图片转换为JPG格式</span>
+                            </div>
+                            <div class="tool-item" data-tool="webp-to-jpg">
+                                <span class="tool-icon">🖼️</span>
+                                <span class="tool-name">WebP转JPG</span>
+                                <span class="tool-desc">将WebP图片转换为JPG格式</span>
+                            </div>
+                            <div class="tool-item" data-tool="heic-to-jpg">
+                                <span class="tool-icon">📱</span>
+                                <span class="tool-name">HEIC转JPG</span>
+                                <span class="tool-desc">将iPhone的HEIC照片转换为JPG</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 视频/GIF转换工具 -->
+                    <div class="tool-category">
+                        <h3 class="category-title">🎬 视频转换</h3>
+                        <div class="tools-list">
+                            <div class="tool-item" data-tool="mp4-to-gif">
+                                <span class="tool-icon">🎞️</span>
+                                <span class="tool-name">MP4转GIF</span>
+                                <span class="tool-desc">将MP4视频转换为GIF动图</span>
+                            </div>
+                            <div class="tool-item" data-tool="mov-to-mp4">
+                                <span class="tool-icon">📹</span>
+                                <span class="tool-name">MOV转MP4</span>
+                                <span class="tool-desc">将MOV视频转换为MP4格式</span>
+                            </div>
+                            <div class="tool-item" data-tool="video-compress">
+                                <span class="tool-icon">📦</span>
+                                <span class="tool-name">视频压缩</span>
+                                <span class="tool-desc">压缩视频文件大小</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 其他工具 -->
+                    <div class="tool-category">
+                        <h3 class="category-title">🔧 其他工具</h3>
+                        <div class="tools-list">
+                            <div class="tool-item" data-tool="pdf-merge">
+                                <span class="tool-icon">📑</span>
+                                <span class="tool-name">PDF合并</span>
+                                <span class="tool-desc">将多个PDF文件合并为一个</span>
+                            </div>
+                            <div class="tool-item" data-tool="pdf-split">
+                                <span class="tool-icon">✂️</span>
+                                <span class="tool-name">PDF分割</span>
+                                <span class="tool-desc">将PDF文件分割为多个文件</span>
+                            </div>
+                            <div class="tool-item" data-tool="image-compress">
+                                <span class="tool-icon">🖼️</span>
+                                <span class="tool-name">图片压缩</span>
+                                <span class="tool-desc">压缩图片文件大小</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 转换器界面 -->
+        <section id="converter" class="converter-section" style="display: none;">
+            <div class="container">
+                <div class="converter-header">
+                    <button class="back-button" onclick="showToolSelection()">← 返回工具选择</button>
+                    <h2 id="converter-title" class="converter-title"></h2>
+                </div>
+                
+                <div class="converter-container">
+                    <div class="upload-area" id="upload-area">
+                        <div class="upload-content">
+                            <div class="upload-icon">📁</div>
+                            <h3>拖放文件到这里</h3>
+                            <p>或点击选择文件</p>
+                            <input type="file" id="file-input" class="file-input" accept="*/*">
+                            <div class="file-info">
+                                <p>支持文件大小：最大50MB</p>
+                                <p>文件将在1小时后自动删除</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="converter-options" id="converter-options" style="display: none;">
+                        <div class="options-section">
+                            <h4>转换选项</h4>
+                            <div class="option-group" id="option-group">
+                                <!-- 动态生成的选项 -->
+                            </div>
+                        </div>
+                        <button class="convert-button" onclick="startConversion()">开始转换</button>
+                    </div>
+                    
+                    <div class="converter-result" id="converter-result" style="display: none;">
+                        <div class="result-content">
+                            <div class="result-icon">✅</div>
+                            <h3>转换完成！</h3>
+                            <p>您的文件已成功转换</p>
+                            <button class="download-button" onclick="downloadFile()">下载文件</button>
+                            <div class="share-buttons">
+                                <button class="share-button" onclick="shareResult()">分享结果</button>
+                                <button class="new-convert-button" onclick="showToolSelection()">新的转换</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于区域 -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">关于我们</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>我们的使命</h3>
+                        <p>让文件格式转换变得简单、快速、免费。我们致力于为用户提供最好的在线转换体验。</p>
+                        
+                        <h3>隐私保护</h3>
+                        <p>所有上传的文件将在1小时后自动删除，我们不会存储您的任何个人数据。</p>
+                        
+                        <h3>技术支持</h3>
+                        <p>如果您在使用过程中遇到任何问题，请联系我们。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 All-in-One 小型文件格式转换器. 保留所有权利.</p>
+                <p>免费在线工具 - 无需注册 - 完全免费</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
